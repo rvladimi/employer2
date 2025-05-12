@@ -1,0 +1,48 @@
+.card {
+  width: 200px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding-bottom: 30px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.card_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #404040;
+}
+
+.image_wrapper {
+  width: 100%;
+  padding-top: 5px;
+  overflow: hidden;
+}
+
+.image_wrapper img {
+  width: 100%;
+}
+
+.name {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.price_text {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.ruble {
+  font-size: 30px;
+  font-weight: 600;
+  /* line-height: 28px; */
+}
